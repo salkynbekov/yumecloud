@@ -40,10 +40,17 @@
 
 **### Запуск**
 ------------------------
-Пропишите следующие команды:
+Пропишите следующие команды по порядку в терминал:
+
+git clone https://github.com/salkynbekov/yumecloud.git
+
+cd rental_management/
 
 docker-compose up --build
 
-docker-compose exec web python manage.py migrate
+Далее зайдите в Docker Desktop, перейдите в контейнер django_app и перейдите во вкладку 'Exec'
+пропишите следующие команды
 
-docker-compose exec web python manage.py loaddata fixtures/rental_data.json
+python manage.py migrate
+
+python manage.py loaddata fixtures/rental_data.json
