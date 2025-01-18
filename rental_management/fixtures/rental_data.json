@@ -1,0 +1,1566 @@
+[
+{
+    "model": "rental.product",
+    "pk": 1,
+    "fields": {
+        "name": "Монополия",
+        "price": "2000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 2,
+    "fields": {
+        "name": "Дженга",
+        "price": "1500.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 3,
+    "fields": {
+        "name": "Мафия",
+        "price": "1000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 4,
+    "fields": {
+        "name": "Уно",
+        "price": "1500.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 5,
+    "fields": {
+        "name": "Колонизаторы",
+        "price": "3000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 6,
+    "fields": {
+        "name": "Каркассон",
+        "price": "2500.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 7,
+    "fields": {
+        "name": "Тикет ту Райд",
+        "price": "2750.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 8,
+    "fields": {
+        "name": "Скрэббл",
+        "price": "6000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 9,
+    "fields": {
+        "name": "Имаджинариум",
+        "price": "6000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 10,
+    "fields": {
+        "name": "Экивоки",
+        "price": "2500.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 11,
+    "fields": {
+        "name": "Диксит",
+        "price": "4000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 12,
+    "fields": {
+        "name": "Агентство Время",
+        "price": "6000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 13,
+    "fields": {
+        "name": "Эпичные схватки боевых магов",
+        "price": "3500.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 14,
+    "fields": {
+        "name": "Pathfinder",
+        "price": "7000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 15,
+    "fields": {
+        "name": "Dungeons & Dragons",
+        "price": "8000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 16,
+    "fields": {
+        "name": "Пандемия",
+        "price": "4500.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 17,
+    "fields": {
+        "name": "Зельеварение",
+        "price": "3000.00"
+    }
+},
+{
+    "model": "rental.product",
+    "pk": 18,
+    "fields": {
+        "name": "Бэнг",
+        "price": "3000.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 1,
+    "fields": {
+        "start_rental": "2024-12-06",
+        "end_rental": "2024-12-08",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 2,
+    "fields": {
+        "start_rental": "2024-12-10",
+        "end_rental": "2024-12-12",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 3,
+    "fields": {
+        "start_rental": "2024-10-03",
+        "end_rental": "2024-10-07",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 4,
+    "fields": {
+        "start_rental": "2024-12-06",
+        "end_rental": "2024-12-07",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 5,
+    "fields": {
+        "start_rental": "2024-11-28",
+        "end_rental": "2024-12-01",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 6,
+    "fields": {
+        "start_rental": "2025-01-09",
+        "end_rental": "2025-01-11",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 7,
+    "fields": {
+        "start_rental": "2025-01-23",
+        "end_rental": "2025-01-26",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 8,
+    "fields": {
+        "start_rental": "2024-10-27",
+        "end_rental": "2024-10-31",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 9,
+    "fields": {
+        "start_rental": "2024-12-15",
+        "end_rental": "2024-12-16",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 10,
+    "fields": {
+        "start_rental": "2025-01-14",
+        "end_rental": "2025-01-17",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 11,
+    "fields": {
+        "start_rental": "2025-01-04",
+        "end_rental": "2025-01-08",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 12,
+    "fields": {
+        "start_rental": "2024-12-20",
+        "end_rental": "2024-12-22",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 13,
+    "fields": {
+        "start_rental": "2024-12-15",
+        "end_rental": "2024-12-19",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 14,
+    "fields": {
+        "start_rental": "2025-01-20",
+        "end_rental": "2025-01-24",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 15,
+    "fields": {
+        "start_rental": "2024-12-29",
+        "end_rental": "2024-12-30",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 16,
+    "fields": {
+        "start_rental": "2024-12-13",
+        "end_rental": "2024-12-15",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 17,
+    "fields": {
+        "start_rental": "2024-12-11",
+        "end_rental": "2024-12-12",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 18,
+    "fields": {
+        "start_rental": "2024-10-15",
+        "end_rental": "2024-10-18",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 19,
+    "fields": {
+        "start_rental": "2024-12-24",
+        "end_rental": "2024-12-25",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 20,
+    "fields": {
+        "start_rental": "2024-11-17",
+        "end_rental": "2024-11-20",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 21,
+    "fields": {
+        "start_rental": "2024-12-19",
+        "end_rental": "2024-12-21",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 22,
+    "fields": {
+        "start_rental": "2024-11-16",
+        "end_rental": "2024-11-17",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 23,
+    "fields": {
+        "start_rental": "2024-12-02",
+        "end_rental": "2024-12-04",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 24,
+    "fields": {
+        "start_rental": "2024-12-05",
+        "end_rental": "2024-12-06",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 25,
+    "fields": {
+        "start_rental": "2025-01-30",
+        "end_rental": "2025-02-02",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 26,
+    "fields": {
+        "start_rental": "2024-12-31",
+        "end_rental": "2025-01-04",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 27,
+    "fields": {
+        "start_rental": "2024-12-21",
+        "end_rental": "2024-12-24",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 28,
+    "fields": {
+        "start_rental": "2024-10-11",
+        "end_rental": "2024-10-12",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 29,
+    "fields": {
+        "start_rental": "2024-11-07",
+        "end_rental": "2024-11-08",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 30,
+    "fields": {
+        "start_rental": "2025-01-17",
+        "end_rental": "2025-01-19",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 31,
+    "fields": {
+        "start_rental": "2025-01-29",
+        "end_rental": "2025-01-30",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 32,
+    "fields": {
+        "start_rental": "2024-10-13",
+        "end_rental": "2024-10-14",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 33,
+    "fields": {
+        "start_rental": "2024-11-16",
+        "end_rental": "2024-11-17",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 34,
+    "fields": {
+        "start_rental": "2025-01-19",
+        "end_rental": "2025-01-23",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 35,
+    "fields": {
+        "start_rental": "2024-12-19",
+        "end_rental": "2024-12-21",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 36,
+    "fields": {
+        "start_rental": "2024-12-23",
+        "end_rental": "2024-12-24",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 37,
+    "fields": {
+        "start_rental": "2024-11-16",
+        "end_rental": "2024-11-18",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 38,
+    "fields": {
+        "start_rental": "2025-01-02",
+        "end_rental": "2025-01-06",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 39,
+    "fields": {
+        "start_rental": "2024-12-07",
+        "end_rental": "2024-12-11",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 40,
+    "fields": {
+        "start_rental": "2025-01-06",
+        "end_rental": "2025-01-07",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 41,
+    "fields": {
+        "start_rental": "2024-10-14",
+        "end_rental": "2024-10-15",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 42,
+    "fields": {
+        "start_rental": "2024-12-18",
+        "end_rental": "2024-12-21",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 43,
+    "fields": {
+        "start_rental": "2024-11-07",
+        "end_rental": "2024-11-09",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 44,
+    "fields": {
+        "start_rental": "2024-10-20",
+        "end_rental": "2024-10-21",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 45,
+    "fields": {
+        "start_rental": "2024-12-15",
+        "end_rental": "2024-12-17",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 46,
+    "fields": {
+        "start_rental": "2025-01-22",
+        "end_rental": "2025-01-23",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 47,
+    "fields": {
+        "start_rental": "2024-11-23",
+        "end_rental": "2024-11-26",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 48,
+    "fields": {
+        "start_rental": "2025-01-29",
+        "end_rental": "2025-01-31",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 49,
+    "fields": {
+        "start_rental": "2025-01-27",
+        "end_rental": "2025-01-29",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.order",
+    "pk": 50,
+    "fields": {
+        "start_rental": "2024-11-02",
+        "end_rental": "2024-11-04",
+        "total_price": "0.00"
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 1,
+    "fields": {
+        "order": 1,
+        "product": 15,
+        "product_price": "16000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 2,
+    "fields": {
+        "order": 1,
+        "product": 3,
+        "product_price": "2000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 3,
+    "fields": {
+        "order": 2,
+        "product": 16,
+        "product_price": "9000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 4,
+    "fields": {
+        "order": 2,
+        "product": 12,
+        "product_price": "12000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 5,
+    "fields": {
+        "order": 2,
+        "product": 3,
+        "product_price": "2000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 6,
+    "fields": {
+        "order": 3,
+        "product": 12,
+        "product_price": "24000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 7,
+    "fields": {
+        "order": 3,
+        "product": 10,
+        "product_price": "10000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 8,
+    "fields": {
+        "order": 3,
+        "product": 8,
+        "product_price": "24000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 9,
+    "fields": {
+        "order": 4,
+        "product": 16,
+        "product_price": "4500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 10,
+    "fields": {
+        "order": 5,
+        "product": 3,
+        "product_price": "3000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 11,
+    "fields": {
+        "order": 6,
+        "product": 14,
+        "product_price": "14000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 12,
+    "fields": {
+        "order": 7,
+        "product": 16,
+        "product_price": "13500.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 13,
+    "fields": {
+        "order": 7,
+        "product": 9,
+        "product_price": "18000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 14,
+    "fields": {
+        "order": 7,
+        "product": 7,
+        "product_price": "8250.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 15,
+    "fields": {
+        "order": 8,
+        "product": 12,
+        "product_price": "24000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 16,
+    "fields": {
+        "order": 8,
+        "product": 9,
+        "product_price": "24000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 17,
+    "fields": {
+        "order": 9,
+        "product": 13,
+        "product_price": "3500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 18,
+    "fields": {
+        "order": 9,
+        "product": 17,
+        "product_price": "3000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 19,
+    "fields": {
+        "order": 10,
+        "product": 11,
+        "product_price": "12000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 20,
+    "fields": {
+        "order": 10,
+        "product": 12,
+        "product_price": "18000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 21,
+    "fields": {
+        "order": 11,
+        "product": 14,
+        "product_price": "28000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 22,
+    "fields": {
+        "order": 11,
+        "product": 4,
+        "product_price": "6000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 23,
+    "fields": {
+        "order": 11,
+        "product": 9,
+        "product_price": "24000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 24,
+    "fields": {
+        "order": 12,
+        "product": 6,
+        "product_price": "5000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 25,
+    "fields": {
+        "order": 13,
+        "product": 10,
+        "product_price": "10000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 26,
+    "fields": {
+        "order": 13,
+        "product": 6,
+        "product_price": "10000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 27,
+    "fields": {
+        "order": 14,
+        "product": 3,
+        "product_price": "4000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 28,
+    "fields": {
+        "order": 14,
+        "product": 11,
+        "product_price": "16000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 29,
+    "fields": {
+        "order": 15,
+        "product": 8,
+        "product_price": "6000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 30,
+    "fields": {
+        "order": 15,
+        "product": 15,
+        "product_price": "8000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 31,
+    "fields": {
+        "order": 16,
+        "product": 9,
+        "product_price": "12000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 32,
+    "fields": {
+        "order": 17,
+        "product": 14,
+        "product_price": "7000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 33,
+    "fields": {
+        "order": 17,
+        "product": 1,
+        "product_price": "2000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 34,
+    "fields": {
+        "order": 18,
+        "product": 17,
+        "product_price": "9000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 35,
+    "fields": {
+        "order": 18,
+        "product": 16,
+        "product_price": "13500.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 36,
+    "fields": {
+        "order": 18,
+        "product": 9,
+        "product_price": "18000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 37,
+    "fields": {
+        "order": 19,
+        "product": 2,
+        "product_price": "1500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 38,
+    "fields": {
+        "order": 20,
+        "product": 12,
+        "product_price": "18000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 39,
+    "fields": {
+        "order": 21,
+        "product": 12,
+        "product_price": "12000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 40,
+    "fields": {
+        "order": 21,
+        "product": 13,
+        "product_price": "7000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 41,
+    "fields": {
+        "order": 22,
+        "product": 3,
+        "product_price": "1000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 42,
+    "fields": {
+        "order": 22,
+        "product": 15,
+        "product_price": "8000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 43,
+    "fields": {
+        "order": 23,
+        "product": 11,
+        "product_price": "8000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 44,
+    "fields": {
+        "order": 23,
+        "product": 15,
+        "product_price": "16000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 45,
+    "fields": {
+        "order": 23,
+        "product": 17,
+        "product_price": "6000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 46,
+    "fields": {
+        "order": 24,
+        "product": 11,
+        "product_price": "4000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 47,
+    "fields": {
+        "order": 24,
+        "product": 18,
+        "product_price": "3000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 48,
+    "fields": {
+        "order": 25,
+        "product": 14,
+        "product_price": "21000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 49,
+    "fields": {
+        "order": 25,
+        "product": 15,
+        "product_price": "24000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 50,
+    "fields": {
+        "order": 26,
+        "product": 15,
+        "product_price": "32000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 51,
+    "fields": {
+        "order": 27,
+        "product": 11,
+        "product_price": "12000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 52,
+    "fields": {
+        "order": 27,
+        "product": 18,
+        "product_price": "9000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 53,
+    "fields": {
+        "order": 28,
+        "product": 4,
+        "product_price": "1500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 54,
+    "fields": {
+        "order": 28,
+        "product": 2,
+        "product_price": "1500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 55,
+    "fields": {
+        "order": 28,
+        "product": 15,
+        "product_price": "8000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 56,
+    "fields": {
+        "order": 29,
+        "product": 18,
+        "product_price": "3000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 57,
+    "fields": {
+        "order": 29,
+        "product": 11,
+        "product_price": "4000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 58,
+    "fields": {
+        "order": 29,
+        "product": 7,
+        "product_price": "2750.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 59,
+    "fields": {
+        "order": 30,
+        "product": 4,
+        "product_price": "3000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 60,
+    "fields": {
+        "order": 30,
+        "product": 10,
+        "product_price": "5000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 61,
+    "fields": {
+        "order": 31,
+        "product": 12,
+        "product_price": "6000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 62,
+    "fields": {
+        "order": 31,
+        "product": 11,
+        "product_price": "4000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 63,
+    "fields": {
+        "order": 31,
+        "product": 10,
+        "product_price": "2500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 64,
+    "fields": {
+        "order": 32,
+        "product": 10,
+        "product_price": "2500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 65,
+    "fields": {
+        "order": 33,
+        "product": 4,
+        "product_price": "1500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 66,
+    "fields": {
+        "order": 34,
+        "product": 8,
+        "product_price": "24000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 67,
+    "fields": {
+        "order": 34,
+        "product": 6,
+        "product_price": "10000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 68,
+    "fields": {
+        "order": 34,
+        "product": 17,
+        "product_price": "12000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 69,
+    "fields": {
+        "order": 35,
+        "product": 14,
+        "product_price": "14000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 70,
+    "fields": {
+        "order": 36,
+        "product": 17,
+        "product_price": "3000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 71,
+    "fields": {
+        "order": 36,
+        "product": 2,
+        "product_price": "1500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 72,
+    "fields": {
+        "order": 37,
+        "product": 1,
+        "product_price": "4000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 73,
+    "fields": {
+        "order": 38,
+        "product": 13,
+        "product_price": "14000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 74,
+    "fields": {
+        "order": 38,
+        "product": 6,
+        "product_price": "10000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 75,
+    "fields": {
+        "order": 39,
+        "product": 18,
+        "product_price": "12000.00",
+        "duration": 4
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 76,
+    "fields": {
+        "order": 40,
+        "product": 12,
+        "product_price": "6000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 77,
+    "fields": {
+        "order": 40,
+        "product": 5,
+        "product_price": "3000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 78,
+    "fields": {
+        "order": 40,
+        "product": 13,
+        "product_price": "3500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 79,
+    "fields": {
+        "order": 41,
+        "product": 12,
+        "product_price": "6000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 80,
+    "fields": {
+        "order": 42,
+        "product": 15,
+        "product_price": "24000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 81,
+    "fields": {
+        "order": 43,
+        "product": 12,
+        "product_price": "12000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 82,
+    "fields": {
+        "order": 43,
+        "product": 10,
+        "product_price": "5000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 83,
+    "fields": {
+        "order": 44,
+        "product": 6,
+        "product_price": "2500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 84,
+    "fields": {
+        "order": 44,
+        "product": 2,
+        "product_price": "1500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 85,
+    "fields": {
+        "order": 45,
+        "product": 12,
+        "product_price": "12000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 86,
+    "fields": {
+        "order": 45,
+        "product": 14,
+        "product_price": "14000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 87,
+    "fields": {
+        "order": 46,
+        "product": 1,
+        "product_price": "2000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 88,
+    "fields": {
+        "order": 46,
+        "product": 13,
+        "product_price": "3500.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 89,
+    "fields": {
+        "order": 46,
+        "product": 14,
+        "product_price": "7000.00",
+        "duration": 1
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 90,
+    "fields": {
+        "order": 47,
+        "product": 6,
+        "product_price": "7500.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 91,
+    "fields": {
+        "order": 47,
+        "product": 3,
+        "product_price": "3000.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 92,
+    "fields": {
+        "order": 47,
+        "product": 16,
+        "product_price": "13500.00",
+        "duration": 3
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 93,
+    "fields": {
+        "order": 48,
+        "product": 1,
+        "product_price": "4000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 94,
+    "fields": {
+        "order": 49,
+        "product": 11,
+        "product_price": "8000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 95,
+    "fields": {
+        "order": 50,
+        "product": 13,
+        "product_price": "7000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 96,
+    "fields": {
+        "order": 50,
+        "product": 9,
+        "product_price": "12000.00",
+        "duration": 2
+    }
+},
+{
+    "model": "rental.orderproduct",
+    "pk": 97,
+    "fields": {
+        "order": 50,
+        "product": 8,
+        "product_price": "12000.00",
+        "duration": 2
+    }
+}
+]

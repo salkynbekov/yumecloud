@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from rental.models import OrderProduct, Order, Product
+
+admin.site.register([Product, Order, OrderProduct])
