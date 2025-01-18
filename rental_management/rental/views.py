@@ -1,5 +1,7 @@
 from datetime import timedelta
 
+from django.db.models import Sum, DecimalField
+from django.db.models.functions import Cast
 from rest_framework import viewsets, generics
 from rest_framework.exceptions import NotFound
 from rest_framework.response import Response
@@ -111,5 +113,27 @@ class ProductAvailabilityView(APIView):
                     for period in available_periods
                 ]
             })
+
+        return Response(result)
+
+
+class ProductTotalRentalSumView(APIView):
+    def get(self, request, *args, **kwargs):
+        rental_stats = (
+            Product.objects
+            .filter(order_products__isnull=False)
+            .annotate(
+                total_rental_sum=Sum(Cast('order_products__product_price', DecimalField()))
+            )
+            .order_by('-total_rental_sum')
+        )
+
+        result = [
+            {
+                "product_name": product.name,
+                "total_rental_sum": product.total_rental_sum
+            }
+            for product in rental_stats
+        ]
 
         return Response(result)
