@@ -1,6 +1,9 @@
+from datetime import timedelta
+
 from rest_framework import viewsets, generics
 from rest_framework.exceptions import NotFound
 from rest_framework.response import Response
+from rest_framework.views import APIView
 
 from .models import Product, Order, OrderProduct
 from .serializers import ProductSerializer, OrderSerializer, OrderProductSerializer
@@ -67,3 +70,46 @@ class OrderProductListView(generics.ListAPIView):
             "total_rental_days": sum(item['rental_days'] for item in products_data),
             "total_price": total_sum
         })
+
+
+class ProductAvailabilityView(APIView):
+    def get(self, request, *args, **kwargs):
+        products = Product.objects.all()
+        result = []
+
+        for product in products:
+            rental_periods = OrderProduct.objects.filter(product=product).select_related('order')
+            rental_periods = rental_periods.order_by('order__start_rental')
+
+            busy_periods = [
+                (rental.order.start_rental, rental.order.end_rental)
+                for rental in rental_periods
+            ]
+
+            available_periods = []
+            last_end_date = None
+
+            for start_date, end_date in busy_periods:
+                if last_end_date:
+                    if start_date > last_end_date + timedelta(days=1):
+                        available_periods.append((
+                            last_end_date + timedelta(days=1),
+                            start_date - timedelta(days=1)
+                        ))
+                last_end_date = end_date
+
+            if last_end_date:
+                available_periods.append((last_end_date + timedelta(days=1), None))
+
+            result.append({
+                "product_name": product.name,
+                "available_periods": [
+                    {
+                        "start_date": period[0].strftime('%Y-%m-%d'),
+                        "end_date": period[1].strftime('%Y-%m-%d') if period[1] else "∞"
+                    }
+                    for period in available_periods
+                ]
+            })
+
+        return Response(result)
