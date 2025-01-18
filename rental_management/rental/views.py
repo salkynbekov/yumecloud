@@ -1,5 +1,6 @@
 from rest_framework import viewsets, generics
 from rest_framework.exceptions import NotFound
+from rest_framework.response import Response
 
 from .models import Product, Order, OrderProduct
 from .serializers import ProductSerializer, OrderSerializer, OrderProductSerializer
@@ -35,3 +36,34 @@ class OrderProductDetailView(generics.RetrieveAPIView):
         if not obj:
             raise NotFound(detail="Продукт в заказе не найден")
         return obj
+
+
+class OrderProductListView(generics.ListAPIView):
+    def get_queryset(self):
+        order_id = self.kwargs['order_pk']
+        try:
+            Order.objects.get(id=order_id)
+        except Order.DoesNotExist:
+            raise NotFound(detail="Заказ не найден")
+
+        return OrderProduct.objects.filter(order_id=order_id)
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.get_queryset()
+
+        products_data = [
+            {
+                "product_name": item.product.name,
+                "rental_days": item.duration,
+                "total_price": item.product_price
+            }
+            for item in queryset
+        ]
+
+        total_sum = sum(item['total_price'] for item in products_data)
+
+        return Response({
+            "products": products_data,
+            "total_rental_days": sum(item['rental_days'] for item in products_data),
+            "total_price": total_sum
+        })
